@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: blockworld-server
+    env: node
+    region: singapore
+    plan: free
+    buildCommand: npm install
+    startCommand: node src/index.js
+    envVars:
+      - key: PORT
+        value: 3001
+    disk:
+      name: gamedb
+      mountPath: /data
+      sizeGB: 1
