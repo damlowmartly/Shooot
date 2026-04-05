@@ -1,9 +1,0 @@
-{
-  "buildCommand": "npm run build",
-  "outputDirectory": "dist",
-  "installCommand": "npm install",
-  "framework": null,
-  "rewrites": [
-    { "source": "/api/(.*)", "destination": "https://YOUR-RENDER-APP.onrender.com/$1" }
-  ]
-}
