@@ -4,6 +4,6 @@
   "installCommand": "npm install",
   "framework": null,
   "rewrites": [
-    { "source": "/api/(.*)", "destination": "https://YOUR-RENDER-APP.onrender.com/$1" }
+    { "source": "/api/(.*)", "destination": "https://shooot-nht2.onrender.com" }
   ]
 }
